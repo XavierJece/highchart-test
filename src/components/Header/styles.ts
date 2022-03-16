@@ -8,14 +8,17 @@ export const Head = styled.div`
     align-items: center;
     justify-content: flex-start;
 
-    padding: 25px 0 25px 70px;
-
     border: 1px solid ${AnalyticsColors.grey};
     box-shadow: 0px 0px 5px 0px ${AnalyticsColors.grey};
 
-    img {
-        width: 240px;
-        height: 48px;
+    h1 {
+        width: 100%;
+        text-align: center;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+
+        color: ${AnalyticsColors.black};
     }
 `;
 
@@ -34,13 +37,11 @@ export const Main = styled.main`
     }
 
     h5 {
-        width: 223px;
-        height: 46px;
         margin: 0;
 
         font-weight: normal;
-        font-size: 36px;
-        line-height: 44px;
+        font-size: 22px;
+        line-height: 32px;
 
         color: ${AnalyticsColors.black};
     }

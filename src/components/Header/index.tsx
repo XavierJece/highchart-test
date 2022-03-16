@@ -59,15 +59,11 @@ const Header = () => {
     return (
         <S.Wrapper>
             <S.Head>
-                <img src={ExpertsClubLogo} alt="Experts club logo" />
+                <h1>Teste Gráficos com Highcharts</h1>
             </S.Head>
             <S.Main>
-                <h5>RS Analytics</h5>
-                <span>
-                    Acompanhe a quantidade de acesso gerado nas páginas da
-                    rocketseat, métricas de alunos que acessaram a trilha ignite
-                    e experts club
-                </span>
+                <h5>Analytics</h5>
+                <span>Acompanhe a quantidade de acesso gerado nas páginas</span>
 
                 <S.Content>
                     <h3>Dados de acesso</h3>
