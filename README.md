@@ -1,20 +1,18 @@
-<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+# Teste de geração gráficos personalizados utilizando highcharts, React e Typescript.
 
-# Gerando gráficos personalizados utilizando highcharts, React e Typescript.
+Criar gráficos personalizados com React e typescript utilizando o bibiblioteca do highcharts. Teste para saber como é a implementação da biblioteca e suas visualizações, até do teste com gráficos diferentes. 
 
-Criar gráficos personalizados com React e typescript parece não ser uma tarefa fácil, mas com highcharts essa conversa muda!
+## Grafitos testados
 
-Nesse vídeo vamos utilizar o highcharts para criar gráficos personalizados em React, com typescript, de uma forma simples e estruturada. Explorando as qualidades destas ferramentas para montar um projeto de análise de dados de acesso as plataformas da rocketseat. 
+- [x] Barra
+- [x] Torta
+- [x] Barra e Linha
+- [ ] Real time
 
+___
+### Projeto Base
 
-## Expert
-[<img src="https://avatars.githubusercontent.com/u/15204649?v=4" width="75px;"/>](https://github.com/MCastegnaro) 
-
-Matheus Castegnaro
-
-[Github](https://github.com/MCastegnaro)
-
-[LinkedIn](https://www.linkedin.com/in/matheus-castegnaro/)
+Matheus Castegnaro - [Gerando gráficos personalizados utilizando highcharts, React e Typescript.](https://github.com/rocketseat-experts-club/rs-ec-react-highchart-analytics-2021-11)
 
 
 
