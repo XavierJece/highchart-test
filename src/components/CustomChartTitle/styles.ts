@@ -23,6 +23,7 @@ export const Title = styled.h5`
 
     margin: 5px 0px;
 `;
+
 export const Description = styled.span`
     display: flex;
     align-items: center;

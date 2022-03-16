@@ -1,4 +1,5 @@
 /* eslint-disable no-useless-constructor */
+
 import {
     HttpClient,
     HttpStatusCode,
@@ -7,6 +8,7 @@ import {
 export class AnalyticsService {
     constructor(
         private readonly httpClient: HttpClient,
+
         private readonly url = `http://localhost:5000`
     ) {}
 
@@ -17,13 +19,16 @@ export class AnalyticsService {
 
         const { statusCode, body } = await this.httpClient.request({
             method: "get",
+
             url: `${this.url}/${period}`,
+
             headers,
         });
 
         switch (statusCode) {
             case HttpStatusCode.ok:
                 return body;
+
             default:
                 throw new Error();
         }

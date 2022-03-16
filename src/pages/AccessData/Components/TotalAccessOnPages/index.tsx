@@ -29,16 +29,23 @@ export const TotalAccessOnPages = () => {
         series: [
             {
                 name: "Ignite",
+
                 type: "column",
+
                 data: [analyticsDataState?.totalAccessOnPages?.ignite?.value],
+
                 color: AnalyticsColors.purple,
             },
+
             {
                 name: "Experts Club",
+
                 type: "column",
+
                 data: [
                     analyticsDataState?.totalAccessOnPages?.expertsClub?.value,
                 ],
+
                 color: AnalyticsColors.ecWine,
             },
         ],
@@ -49,27 +56,42 @@ export const TotalAccessOnPages = () => {
 
         yAxis: {
             min: 0,
+
             title: {
                 text: "",
             },
         },
+
         plotOptions: {
             column: {
                 dataLabels: {
                     useHTML: true,
+
                     enabled: true,
+
                     color: AnalyticsColors.black,
+
                     inside: true,
+
                     verticalAlign: "bottom",
+
                     borderWidth: 3,
+
                     shadow: false,
+
                     style: {
                         fontSize: "36px",
+
                         fontWeight: "bold",
+
                         fontStyle: "Normal",
+
                         lineHeight: "44px",
+
                         fontFamily: "Inter",
+
                         textOutline: "0",
+
                         padding: "14px",
                     },
                 },

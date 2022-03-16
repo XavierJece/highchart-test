@@ -16,7 +16,6 @@ const Chart = ({ options }: ChartProps) => {
         credits: {
             enabled: false,
         },
-
         lang: {
             shortMonths: [
                 "Jan",
@@ -36,6 +35,7 @@ const Chart = ({ options }: ChartProps) => {
             thousandsSep: ".",
         },
     });
+
     return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
 
