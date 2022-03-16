@@ -33,11 +33,8 @@ const TotalAccessPerMonth = () => {
         series: [
             {
                 type: "column",
-
                 name: "Total médio de acessos",
-
                 color: AnalyticsColors.purple,
-
                 data: analyticsDataState.totalAccessOnPagesByMonth?.months || [
                     [1604199600000, 0],
                 ],
